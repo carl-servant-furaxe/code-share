@@ -6,6 +6,32 @@ Ce bout de code permet le partage via le javascript
 - FontAwesome 4.7.x
 - Google Analytics (optionel)
 
+## Code
+```
+<!-- share -->
+<div class="share">
+	<div class="share-title">Partagez</div>
+	<div class="share-container">
+		<ul>
+			<li><button type="button" data-type="delicious" title="Partager sur Delicious">&#xf1a5;</button></li>
+			<li><button type="button" data-type="digg" title="Partager sur Digg">&#xf1a6;</button></li>
+			<li><button type="button" data-type="facebook" title="Partager sur Facebook">&#xf09a;</button></li>
+			<li><button type="button" data-type="googleplus" title="Partager sur Google+">&#xf0d5;</button></li>
+			<li><button type="button" data-type="linkedin" title="Partager sur LinkedIn">&#xf0e1;</button></li>
+			<li><button type="button" data-type="mailto" title="Partager par Courriel">&#xf0e0;</button></li>
+			<li><button type="button" data-type="pinterest" title="Partager sur Pinterest">&#xf231;</button></li>
+			<li><button type="button" data-type="reddit" title="Partager sur Reddit">&#xf281;</button></li>
+			<li><button type="button" data-type="radiocanada" title="Partager par Courriel">&#xf0e0;</button></li>
+			<li><button type="button" data-type="stumbleupon" title="Partager sur StumbleUpon">&#xf1a4;</button></li>
+			<li><button type="button" data-type="tumblr" title="Partager sur Tumblr">&#xf173;</button></li>
+			<li><button type="button" data-type="twitter" title="Partager sur Twitter">&#xf099;</button></li>
+
+		</ul>
+	</div>
+</div>
+<!-- /share -->
+```
+
 ## Fonctionnement
 Au moment de cliquer sur un des boutons, le code javascript génèrera un url permettant le partage via un popup.
 Ce code est composé des informations des meta données OG.
