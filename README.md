@@ -26,7 +26,7 @@ Cela est très utile lors d'appel ajax.
 ```
 
 | Data-Type | Description | Meta par defaut |
-| --------- | ----------- | --------------- |
+| :-------- | :---------- | :-------------- |
 | data-url  | Url de partage | og:url |
 | data-title | Titre du partage | og:title |
 | data-description | Court texte descriptif | og:description |
