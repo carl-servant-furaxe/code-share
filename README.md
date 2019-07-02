@@ -25,9 +25,9 @@ Cela est très utile lors d'appel ajax.
 <li><button type="button" data-type="facebook" title="Partager sur Facebook" data-url="[1]" data-title="[2]" data-description="[3]" data-image="[4]">&#xf09a;</button></li>
 ```
 
-| Data-Type | Description | Meta par defaut |
-| :-------- | :---------- | :-------------- |
-| data-url  | Url de partage | og:url |
-| data-title | Titre du partage | og:title |
-| data-description | Court texte descriptif | og:description |
-| data-image | Image de partage | og:image |
+| # | Data-Type | Description | Meta par defaut |
+| - | :-------- | :---------- | :-------------- |
+| [1] | data-url  | Url de partage | og:url |
+| [2] | data-title | Titre du partage | og:title |
+| [3] | data-description | Court texte descriptif | og:description |
+| [4} | data-image | Image de partage | og:image |
