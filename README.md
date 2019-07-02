@@ -34,7 +34,7 @@ Ce bout de code permet le partage de lien vers les differents reseaux sociaux vi
 
 ## Fonctionnement
 Au moment de cliquer sur un des boutons, le code javascript génèrera un url permettant le partage via un popup.
-Ce code est composé des informations des meta données OG.
+Ce url est composé des informations provenant des meta données OG.
 
 ```
 <meta property="og:title" content="CONCOURS Mission Lune | ICI Explora | ICI Radio-Canada." />
